@@ -25,6 +25,8 @@ La Toolbox PROJDEN offre une suite complète de fonctionnalités permettant d'id
 
 **Voici les prérequis pour ce projet :**
 
+Ce projet est conçu pour être utilisé sur un système d'exploitation Kali Linux, une distribution spécialement dédiée à la sécurité et aux tests d'intrusion.
+
 Python 3.x : Assurez-vous d'avoir Python 3.x installé sur votre système pour exécuter le script.
 
 Modules Python : Les modules suivants doivent être installés pour garantir le bon fonctionnement du projet :
@@ -97,7 +99,9 @@ Ce script utilise les données sauvegardées dans report_data.json pour génére
 ### Explication
 
 - **Téléchargement** : Cette section fournit les instructions pour cloner le dépôt depuis GitHub en utilisant la commande `git clone`.
-- **Installation** : Après avoir cloné le dépôt, cette section explique comment installer les dépendances nécessaires.
+```sh
+  git clone https://github.com/RamaDossDenesh-SDV/Projet-SDV-RamaDoss-Denesh-M1-CB-B.git
+```
 - **Utilisation** : Instructions sur comment exécuter le script principal une fois que tout est installé.
 
 En suivant cette structure, toute personne intéressée par votre projet saura comment le télécharger, l'installer et l'utiliser.
