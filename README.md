@@ -125,7 +125,7 @@ Si vous choisissez de générer un rapport PDF, les résultats du scan seront sa
 ```sh
 python3 generate_report.py
 ```
-## generate_report.py
+Voici comment le PDF sera nommée : **generate_report.py**
 Ce script utilise les données sauvegardées dans report_data.json pour générer un rapport PDF structuré avec les résultats de l'audit.
 
 
