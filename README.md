@@ -6,7 +6,7 @@
 
 ## Description du ToolBox
 
-Ce ToolBox est un outil d'audit de sécurité réseau spécialement conçu pour exécuter une série de tâches de reconnaissance et d'analyse de vulnérabilités sur une cible spécifiée, qu'il s'agisse d'une adresse IP ou d'un nom de domaine. Son objectif principal est d'identifier et d'évaluer les faiblesses de sécurité potentielles pour permettre aux administrateurs réseau et aux professionnels de la sécurité de renforcer les défenses de leurs systèmes. Projden représente une solution complète et efficace pour les audits de sécurité réseau, aidant les organisations à identifier et à corriger les vulnérabilités avant qu'elles ne puissent être exploitées par des attaquants malveillants.
+Ce ToolBox est un outil d'audit de sécurité réseau spécialement conçu pour exécuter une série de tâches de reconnaissance et d'analyse de vulnérabilités sur une cible spécifiée, qu'il s'agisse d'une adresse IP ou d'un nom de domaine. Son objectif principal est d'identifier et d'évaluer les faiblesses de sécurité potentielles pour permettre aux administrateurs réseau et aux professionnels de la sécurité de renforcer les défenses de leurs systèmes. Projden représente une solution complète et efficace pour les audits de sécurité réseau, aidant les organisations à identifier et à corriger les vulnérabilités avant qu'elles ne puissent être exploitées par des attaquants malveillants. **Le toolbox doit imperativement être execute sur Kali Linux.**
 
 
 ## Besoin
