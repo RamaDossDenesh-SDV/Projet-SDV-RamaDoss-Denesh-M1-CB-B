@@ -121,10 +121,6 @@ Ces atouts font de cet outil une solution puissante et complète pour l'audit de
 ## Génération de Rapports
 Si vous choisissez de générer un rapport PDF, les résultats du scan seront sauvegardés dans un fichier report_data.json. Ensuite, un script externe generate_report.py sera exécuté pour créer le rapport PDF.
 
-**Pour générer le rapport PDF manuellement, exécutez:**
-```sh
-python3 generate_report.py
-```
 Voici comment le PDF sera nommée : **rapport_scan.pdf**
 Ce script utilise les données sauvegardées dans report_data.json pour générer un rapport PDF structuré avec les résultats de l'audit.
 
