@@ -51,7 +51,7 @@ Ces modules fournissent les fonctionnalités nécessaires pour effectuer des sca
 
 **Pour installer les modules requis, vous pouvez utiliser la commande suivante:**
 ```sh
-pip install nmap prettytable reportlab pexpect dns
+pip install python-nmap prettytable reportlab pexpect dns
 ```
 
 Le choix d'outils spécialisés pour le pentest est essentiel pour garantir la précision, l'efficacité et la profondeur de l'évaluation de la sécurité. Utiliser des outils comme Nmap, Hydra, et les bibliothèques Python telles que dns.resolver et PrettyTable permet d'automatiser et de standardiser les processus de reconnaissance, d'analyse de vulnérabilités et de tests d'intrusion. Nmap est réputé pour sa capacité à effectuer des scans réseau détaillés et à identifier les ports ouverts, les services et leurs versions, ce qui est crucial pour cartographier la surface d'attaque potentielle. Hydra, en tant qu'outil de force brute, est indispensable pour tester la robustesse des mécanismes d'authentification. Les bibliothèques Python, quant à elles, facilitent le traitement et la présentation des données, permettant de générer des rapports clairs et structurés. En somme, ces outils spécialisés fournissent une combinaison de robustesse, flexibilité et efficacité, rendant les audits de sécurité plus complets et fiables.
