@@ -134,10 +134,6 @@ Cette section fournit les instructions pour cloner le dépôt depuis GitHub en u
 ```sh
   git clone https://github.com/RamaDossDenesh-SDV/Projet-SDV-RamaDoss-Denesh-M1-CB-B.git
 ```
-- **Utilisation** : Instructions sur comment exécuter le script principal une fois que tout est installé.
-
-En suivant cette structure, toute personne intéressée par votre projet saura comment le télécharger, l'installer et l'utiliser.
-
 
 ## Notes
 **Sécurité:** L'utilisation de cet outil doit être autorisée par le propriétaire du réseau ou du domaine. Une utilisation non autorisée est illégale.
