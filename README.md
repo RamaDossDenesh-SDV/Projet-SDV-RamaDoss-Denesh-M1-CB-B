@@ -6,7 +6,14 @@
 
 ## Description du ToolBox
 
-Ce ToolBox est un outil d'audit de sécurité réseau conçu pour effectuer diverses tâches de reconnaissance et d'analyse de vulnérabilités sur une cible spécifiée (adresse IP ou nom de domaine). Les fonctionnalités incluent la résolution de noms de domaine, la recherche des serveurs de noms, le scan de ports avec Nmap, l'analyse de vulnérabilités, et l'attaque par force brute avec Hydra.
+Ce ToolBox est un outil d'audit de sécurité réseau spécialement conçu pour exécuter une série de tâches de reconnaissance et d'analyse de vulnérabilités sur une cible spécifiée, qu'il s'agisse d'une adresse IP ou d'un nom de domaine. Son objectif principal est d'identifier et d'évaluer les faiblesses de sécurité potentielles pour permettre aux administrateurs réseau et aux professionnels de la sécurité de renforcer les défenses de leurs systèmes. Projden représente une solution complète et efficace pour les audits de sécurité réseau, aidant les organisations à identifier et à corriger les vulnérabilités avant qu'elles ne puissent être exploitées par des attaquants malveillants.
+
+
+## Besoin
+
+La réalisation d'audits de sécurité réguliers et la détection proactive des vulnérabilités sont des pratiques indispensables dans le contexte actuel. Les cyberattaques sont en constante augmentation, tant en fréquence qu'en sophistication. Les entreprises et les organisations de toutes tailles sont des cibles potentielles, et une attaque réussie peut entraîner des pertes financières importantes, des interruptions opérationnelles et des atteintes à la réputation. La protection des données sensibles, telles que les informations personnelles des clients, les données financières et les secrets commerciaux, est plus critique que jamais. Une faille de sécurité peut entraîner une fuite de données, exposant ces informations à des tiers non autorisés et potentiellement malveillants.
+
+Une audits de sécurité réguliers et la détection proactive des vulnérabilités sont des pratiques indispensables pour protéger les actifs numériques, assurer la continuité des opérations et maintenir la confiance des parties prenantes dans un environnement numérique de plus en plus hostile.
 
 ## Fonctionnalités
 
@@ -46,12 +53,38 @@ Ces modules fournissent les fonctionnalités nécessaires pour effectuer des sca
 ```sh
 pip install nmap prettytable reportlab pexpect dns
 ```
+
+Le choix d'outils spécialisés pour le pentest est essentiel pour garantir la précision, l'efficacité et la profondeur de l'évaluation de la sécurité. Utiliser des outils comme Nmap, Hydra, et les bibliothèques Python telles que dns.resolver et PrettyTable permet d'automatiser et de standardiser les processus de reconnaissance, d'analyse de vulnérabilités et de tests d'intrusion. Nmap est réputé pour sa capacité à effectuer des scans réseau détaillés et à identifier les ports ouverts, les services et leurs versions, ce qui est crucial pour cartographier la surface d'attaque potentielle. Hydra, en tant qu'outil de force brute, est indispensable pour tester la robustesse des mécanismes d'authentification. Les bibliothèques Python, quant à elles, facilitent le traitement et la présentation des données, permettant de générer des rapports clairs et structurés. En somme, ces outils spécialisés fournissent une combinaison de robustesse, flexibilité et efficacité, rendant les audits de sécurité plus complets et fiables.
+
 ## Instructions
 - **Type d'audit :** Vous serez invité à choisir entre un audit sur une adresse IP ou un nom de domaine.
+  <p align="center">
+  <img src="img/img1.png" alt="Logo du Projet" width="300"/>
+</p>
+
 - **Entrée cible :** Entrez l'adresse IP ou le nom de domaine cible.
+   <p align="center">
+  <img src="img/Img2.png" alt="Logo du Projet" width="600"/>
+</p>
+
 - **Résultats du scan :** Les résultats du scan de ports et de l'analyse de vulnérabilités seront affichés.
+   <p align="center">
+  <img src="img/Img3.png" alt="Logo du Projet" width="400"/>
+</p>
+ <p align="center">
+  <img src="img/Img4.png" alt="Logo du Projet" width="500"/>
+</p>
+
 - **Attaque par force brute :** Vous pouvez choisir de lancer des attaques par force brute sur les services détectés.
+   <p align="center">
+  <img src="img/Img5.png" alt="Logo du Projet" width="500"/>
+</p>
+
 - **Génération de rapport :** Vous aurez l'option de générer un rapport en PDF des résultats de l'audit.
+   <p align="center">
+  <img src="img/Img6.png" alt="Logo du Projet" width="300"/>
+</p>
+
 
 
 ## Scripts et Fonctions
@@ -96,9 +129,8 @@ python3 generate_report.py
 Ce script utilise les données sauvegardées dans report_data.json pour générer un rapport PDF structuré avec les résultats de l'audit.
 
 
-### Explication
-
-- **Téléchargement** : Cette section fournit les instructions pour cloner le dépôt depuis GitHub en utilisant la commande `git clone`.
+## Téléchargement 
+Cette section fournit les instructions pour cloner le dépôt depuis GitHub en utilisant la commande `git clone`.
 ```sh
   git clone https://github.com/RamaDossDenesh-SDV/Projet-SDV-RamaDoss-Denesh-M1-CB-B.git
 ```
