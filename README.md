@@ -134,7 +134,7 @@ Cette section fournit les instructions pour cloner le dépôt depuis GitHub en u
 ```sh
   git clone https://github.com/RamaDossDenesh-SDV/Projet-SDV-RamaDoss-Denesh-M1-CB-B.git
 ```
-
+Pour executer sur le script 
 ## Notes
 **Sécurité:** L'utilisation de cet outil doit être autorisée par le propriétaire du réseau ou du domaine. Une utilisation non autorisée est illégale.
 **Précautions:** Soyez prudent lors de l'exécution des attaques par force brute, car elles peuvent être détectées comme des comportements malveillants par les systèmes de sécurité réseau.
