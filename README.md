@@ -2,35 +2,52 @@
 
 ## Description du Projet
 
-La Toolbox PROJDEN est un outil complet d'audit de sécurité réseau qui permet de scanner les vulnérabilités, d'effectuer des tests de force brute sur les services SSH et FTP, et de générer des rapports détaillés en format PDF. Cet outil est conçu pour aider les administrateurs réseau et les professionnels de la sécurité à identifier et à atténuer les vulnérabilités potentielles dans leur infrastructure.
+Ce projet est un outil d'audit de sécurité réseau conçu pour effectuer diverses tâches de reconnaissance et d'analyse de vulnérabilités sur une cible spécifiée (adresse IP ou nom de domaine). Les fonctionnalités incluent la résolution de noms de domaine, la recherche des serveurs de noms, le scan de ports avec Nmap, l'analyse de vulnérabilités, et l'attaque par force brute avec Hydra.
 
 ## Fonctionnalités
 
-- **Scan de ports ouverts**: Identifie les ports ouverts sur la cible et les services qui y sont associés.
-- **Résolution DNS**: Convertit les noms de domaine en adresses IP et trouve les serveurs de noms.
-- **Scan des vulnérabilités**: Utilise le script Vulners pour détecter les vulnérabilités associées aux ports ouverts.
-- **Attaque par force brute**: Exécute des attaques par force brute sur les services SSH et FTP pour identifier les identifiants valides.
-- **Génération de rapport PDF**: Compile les résultats du scan et les détails des vulnérabilités dans un rapport PDF complet.
+- **Résolution de noms de domaine :** Conversion d'un nom de domaine en adresse IP et recherche des serveurs de noms.
+- **Résolution d'adresses IP :** Conversion d'une adresse IP en nom d'hôte.
+- **Scan de ports avec Nmap :** Identification des ports ouverts et des services associés.
+- **Analyse de vulnérabilités :** Utilisation de Nmap avec le script Vulners pour identifier les vulnérabilités sur les 
+                                  ports ouverts.
+- **Attaque par force brute :** Utilisation d'Hydra pour effectuer des attaques par force brute sur les services SSH, FTP et 
+  Telnet.
+- **Génération de rapports :** Création de rapports détaillés en PDF résumant les résultats de l'audit.
 
 La Toolbox PROJDEN offre une suite complète de fonctionnalités permettant d'identifier les ports ouverts et les services associés, de résoudre les noms de domaine en adresses IP, de détecter les vulnérabilités à l'aide du script Vulners, d'exécuter des attaques par force brute sur les services SSH et FTP, et de compiler ces résultats dans un rapport PDF détaillé.
 
+## Instructions
+- **Type d'audit :** Vous serez invité à choisir entre un audit sur une adresse IP ou un nom de domaine.
+- **Entrée cible :** Entrez l'adresse IP ou le nom de domaine cible.
+- **Résultats du scan :** Les résultats du scan de ports et de l'analyse de vulnérabilités seront affichés.
+- **Attaque par force brute :** Vous pouvez choisir de lancer des attaques par force brute sur les services détectés.
+- **Génération de rapport :** Vous aurez l'option de générer un rapport en PDF des résultats de l'audit.
+
+
+
 ## Prérequis
 
-- Python 3.x
-- Modules Python:
-  - nmap
-  - socket
-  - subprocess
-  - re
-  - prettytable
-  - reportlab
-  - pexpect
-  - json
-  - dns
+**Voici les prérequis pour ce projet :**
+
+Python 3.x : Assurez-vous d'avoir Python 3.x installé sur votre système pour exécuter le script.
+
+Modules Python : Les modules suivants doivent être installés pour garantir le bon fonctionnement du projet :
+- nmap
+- socket
+- subprocess
+- re
+- prettytable
+- reportlab
+- pexpect
+- json
+- dns (dns.resolver)
+
+Ces modules fournissent les fonctionnalités nécessaires pour effectuer des scans de ports, analyser les résultats, générer des rapports, et bien plus encore. Vous pouvez installer ces modules via pip avec la commande suivante :
 
 **Pour installer les modules requis, vous pouvez utiliser la commande suivante:**
 ```sh
-pip install python-nmap prettytable reportlab pexpect dnspython
+pip install nmap prettytable reportlab pexpect dns
 ```
 
 ## Scripts et Fonctions
