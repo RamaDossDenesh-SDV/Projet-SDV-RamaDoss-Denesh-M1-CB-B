@@ -1,0 +1,12 @@
+Denesh.xv2
+password
+123456
+admin
+default
+root
+guest
+123123
+password1
+qwerty
+abc123
+msfadmin
